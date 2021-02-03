@@ -2,7 +2,8 @@ name: Kamote
 
 on:
   push:
-  workflow_dispatch:
+  repository_dispatch:
+    types: [run_e2e_tests]
 
 jobs:
   super-lint:
