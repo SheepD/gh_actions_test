@@ -1,6 +1,8 @@
 name: Kamote
 
-on: [push, workflow_dispatch]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   name: Lint code base
